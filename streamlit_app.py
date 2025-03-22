@@ -36,7 +36,7 @@ def add_message(role, content):
     st.session_state.chat_history.append({"role": role, "content": content})
 
 # Title and description
-st.title("🌿 Ayurvedic PDF Chatbot")
+st.title("🌿 Ayurvedic Chatbot")
 st.markdown("""
 This chatbot provides Ayurvedic consultations based on traditional Ayurvedic principles.
 Upload Ayurvedic PDFs like Charak Samhita or other traditional texts for enhanced knowledge base!
